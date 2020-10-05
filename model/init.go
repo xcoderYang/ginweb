@@ -1,7 +1,11 @@
 package model
 
-import "database/sql"
+// struct
+
+// DB, err := sql.Open("mysql", "root:yangxuechao123@/medicalsystem?charset=utf8")
 
 func init() {
-	db, err := sql.Open("mysql", "root:yangxuechao123@/medicalsystem?charset=utf8")
+	// if err != nil {
+	// 	return nil
+	// }
 }
